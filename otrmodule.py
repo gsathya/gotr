@@ -70,8 +70,6 @@ from message_control import TYPE_CHAT, MessageControl
 from plugins.helpers import log_calls, log
 from plugins.plugin import GajimPluginException
 
-import dnskeys
-
 import ui
 
 sys.path.insert(0, os.path.dirname(ui.__file__))
