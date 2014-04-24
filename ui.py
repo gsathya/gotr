@@ -501,7 +501,7 @@ class ContactOtrWindow(gtk.Dialog):
             if "/" in fjid:
                 fjid = fjid.split("/", 1)[0]
 
-            dnssec = dnskeys.getOtrFingerprints(self.fjid)
+            dnssec = dnskeys.getOtrFingerprints(fjid)
 
             correct_fp = False
             verified = False
